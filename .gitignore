@@ -1,0 +1,130 @@
+# Dzienniki
+dzienniki
+* .log
+npm-debug.log *
+włóczka-debug.log *
+włóczka-błąd.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Raporty diagnostyczne (https://nodejs.org/api/report.html)
+raport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Dane wykonawcze
+pidowie
+* .pid
+* .nasion
+* .pid.lock
+
+# Katalog dla oprzyrządowanych bibliotek generowanych przez jscoverage/JSCover
+lib-cov
+
+# Katalog pokrycia używany przez narzędzia takie jak istanbul
+zasięg
+* .lcov
+
+# zasięg testu nyc
+.nyc_wyjście
+
+# Magazyn pośredni Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.chrząknięcie
+
+# Katalog zależności Bower (https://bower.io/)
+bower_components
+
+# konfiguracja node-waf
+.lock-wscript
+
+# Skompilowane dodatki binarne (https://nodejs.org/api/addons.html)
+kompilacja / wydanie
+
+# katalogi zależności
+node_modules /
+jspm_pakiety /
+
+# Katalog zależności Snowpack (https://snowpack.dev/)
+web_modules /
+
+# Pamięć podręczna TypeScript
+* .tsbuildinfo
+
+# Opcjonalny katalog pamięci podręcznej npm
+.npm
+
+# Opcjonalna pamięć podręczna eslint
+.eslintcache
+
+# Opcjonalna pamięć podręczna stylelint
+.styllintcache
+
+# Pamięć podręczna mikrozestawów
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Opcjonalna historia REPL
+.node_repl_history
+
+# Wyjście 'pakietu npm'
+* .tgz
+
+# Plik integralności przędzy
+.integralność przędzy
+
+# pliki zmiennych środowiskowych dotenv
+.env
+.śr.rozwój.lokalny
+.env.test.lokalny
+.env.produkcja.lokalna
+.śr.lokalny
+
+# cache-paczka paczek (https://parceljs.org/)
+.Pamięć podręczna
+paczka-cache
+
+# Wyjście kompilacji Next.js
+.następny
+na zewnątrz
+
+# Budowanie / generowanie danych wyjściowych Nuxt.js
+.nuxt
+odległość
+
+# Pliki Gatsby
+pamięć podręczna /
+# Skomentuj w linii publicznej, jeśli twój projekt używa Gatsby, a nie Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# publiczne
+
+# vuepress kompilacja danych wyjściowych
+.vuepress / dist
+
+# vuepress v2.x katalog tymczasowy i pamięci podręcznej
+.temp
+.Pamięć podręczna
+
+# Pamięć podręczna Docusaurus i wygenerowane pliki
+.dokuzaur
+
+# Katalogi bezserwerowe
+.bezserwerowy /
+
+# Pamięć podręczna FuseBox
+skrzynka bezpieczników /
+
+# Pliki lokalne DynamoDB
+.dynamodb /
+
+# Plik portu TernJS
+.tern-port
+
+# Przechowuje wersje VSCode używane do testowania rozszerzeń VSCode
+.vscode-test
+
+# włóczka v2
+.przędza / pamięć podręczna
+.przędza / odłączona
+.yarn / stan kompilacji.yml
+.yarn / stan instalacji.gz
+.pnp. *
