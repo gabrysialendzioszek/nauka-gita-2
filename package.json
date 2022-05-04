@@ -1,0 +1,16 @@
+{
+  "name": "nauka-gita-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-validate": "html-validate index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-validate": "^6.9.1"
+  }
+}
